@@ -11,7 +11,7 @@ book:
   site-url: https://bookdown.org/pbaumgartner/REPO-NAME/
   repo-url: https://github.com/petzi53/REPO-NAME
   repo-branch: master
-  repo-actions: [edit, issue]
+  repo-actions: [edit, issue, source]
   page-navigation: true
 
   chapters:
@@ -42,6 +42,8 @@ format:
 filters:
    - include-code-files
    - section-bibliographies
+   - shinylive
+   - base64
 
 knitr:
   opts_chunk:
@@ -98,6 +100,9 @@ crossref:
     - kind: float
       reference-prefix: Collection Code
       key: col
+    - kind: float
+      reference-prefix: Watch-out
+      key: wat
 
 
 

@@ -7,13 +7,13 @@ XXX: I have finished XXX%. Currently I am working on Chapter XXX.
 
 :::
 
-::: my-watch-out
-::: my-watch-out-header
+::: my-watch
+::: my-watch-header
 WATCH OUT: This is my personal learning material and is therefore
 neither an accurate replication nor an authoritative textbook.
 :::
 
-::: my-watch-out-container
+::: my-watch-container
 I am writing this book as a text for others to read because that forces me to
 become explicit and explain all my learning outcomes more carefully.
 Please keep in mind that this text is not written by an expert but by a
@@ -99,12 +99,12 @@ glossary::glossary_path("../glossary-pb/glossary.yml")
 If you hover with your mouse over the double underlined links it opens
 an window with the appropriate glossary text. Try this example: `r glossary("Z-Score")`.
 
-::: my-watch-out
-::: my-watch-out-header
+::: my-watch
+::: my-watch-header
 WATCH OUT! Glossary is my private learning vehicle
 :::
 
-::: my-watch-out-container
+::: my-watch-container
 ::: {layout="[10, 30]" layout-valign="center"}
 ![](https://debruine.github.io/glossary/logo.png)
 
@@ -166,12 +166,12 @@ In some of my book notes I provide files in the annex. They contain experiments 
 Often you will also find an annex file with a standardized short description of all my used packages, sometimes added with notes about my personal experiences with this package. An example of the standardized format gives you the following @sec-glossary-package.
 
 ### Glossary package {#sec-glossary-package}
-:::::: my-num-packagebox
-::: my-num-packagebox-header
+:::::: my-packagebox
+::: my-packagebox-header
 Package Profile: glossary
 :::
 
-:::: my-num-packagebox-container
+:::: my-packagebox-container
 <center>{**glossary**}: [Glossaries for Markdown and Quarto Documents](https://debruine.github.io/glossary/) [@glossary]</center>
 
 ------------------------------------------------------------------------
