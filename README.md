@@ -1,19 +1,16 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# QUARTO TEMPLATE
+# Engineering Shiny
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-**This is my template for Quarto books about personal notes by reading R
-books.**
-
-What follows is a template text, that has to be updated for every book.
-
 This Quarto book collects my personal notes, trials and exercises of
-[BOOKNAME](URL) by \[AUTHOR\].
+[Engineering Production-Grade Shiny
+Apps](https://engineering-shiny.org/) by Colin Fay, Sébastien Rochette,
+Vincent Guyader and Cervan Girard. \[@fay-2021a\].
 
 WATCH OUT: This is my personal learning material and is therefore
 neither an accurate replication nor an authoritative textbook.
