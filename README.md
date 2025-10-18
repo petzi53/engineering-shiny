@@ -10,7 +10,7 @@
 This Quarto book collects my personal notes, trials and exercises of
 [Engineering Production-Grade Shiny
 Apps](https://engineering-shiny.org/) by Colin Fay, Sébastien Rochette,
-Vincent Guyader and Cervan Girard. \[@fay-2021a\].
+Vincent Guyader and Cervan Girard.
 
 WATCH OUT: This is my personal learning material and is therefore
 neither an accurate replication nor an authoritative textbook.
