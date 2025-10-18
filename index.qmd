@@ -3,7 +3,7 @@
 ::: {.callout-note style="color: blue;"}
 #### This is work in progress
 
-XXX: I have finished XXX%. Currently I am working on Chapter XXX.
+I have just started. Currently I am working on Chapter 1 "About successful {**shiny**} Apps".
 
 :::
 
@@ -32,9 +32,11 @@ course my own responsibility.
 ## Content and Goals of this Book {.unnumbered}
 
 This Quarto book collects my personal notes, trials and exercises of
-XXX[BOOK NAME](URL) by XXX: NAME OF AUTHOR [CITATION].
+[Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/) by Colin Fay, Sébastien Rochette, Vincent Guyader and Cervan Girard. [@fay-2021a].
 
-XXX: DESCRIPTION OF THE BOOK AND WHY IT IS WORTH FOR A QUARTO BOOK
+I have some rudimentary {**shiny**} knowledge, but not sufficient enough for my big project of a dashboard for [Reporters Without Borders](https://rsf.org/en/index) data. "Engineering Production-Grade Shiny Apps" promises to fill my knowledge gap. See the following paragraph from the "Welcome" page:
+
+> If you are starting to read this book, we assume you have a working knowledge of how to build a small application using {**shiny**}, and want to know how to go one step further. In other words, you already have some knowledge about how {**shiny**} works, are able to build a small working application, and want to know how to build a serious, production-grade application that can be sent to production.
 
 
 
@@ -42,7 +44,7 @@ XXX: DESCRIPTION OF THE BOOK AND WHY IT IS WORTH FOR A QUARTO BOOK
 
 ### Quotes and personal comments
 
-My text consists mostly of quotes from the XXX[BOOK NAME]. Sometimes I have them changed slightly to adpat it to the flow onf my notes. But I have not referenced the poistion of the (semi)quotes in the book. As I am generally follow the book's outline using the same text for headers, it should be clear where to find the quotes. 
+My text consists mainly of quotes from the "Engineering" book. Sometimes I have them changed slightly to fit the flow of my notes better. But I have not referenced the position of the (semi)quotes in the book. As I generally follow the book's outline using the structure for headers, it should be clear where to find the quotes. 
 
 This means that most of the text in this Quarto book is not mine but comes
 from different resources. 
@@ -117,7 +119,7 @@ source of the glossary entry as an abbreviation or as an URL. Many definitions w
 :::
 :::
 
-If you fork the XXX: [REPO OF THIS BOOK(URL OF THIS BOOK] then the glossary will not
+If you fork the [enginnering-shiny](https://bookdown.org/pbaumgartner/engineering-shiny/) then the glossary will not
 work out of the box. Load down the `glossary.yml` file from [my
 glossary-pb GitHub
 repo](https://github.com/petzi53/glossary-pb/blob/master/glossary.yml),
@@ -125,7 +127,7 @@ store it on your hard disk and change the path in the code chunk
 @lst-preface-load-glossary accordingly.
 
 In any case I am the only responsible person for the glossary text, especially
-if I have used text from other resources wrongly. Again: The main purpose of the glossary is to support my persponal learning venture.
+if I have used text from other resources wrongly. Again: The main purpose of the glossary is to support my personal learning venture.
 
 ## R Code and Datasets
 
@@ -158,6 +160,8 @@ When it is clear then I will follow the advice from Hadley Wickham:
 > arguments, because they are used so commonly. If you override the
 > default value of an argument, use the full name ([tidyverse style
 > guide](https://style.tidyverse.org/syntax.html)).
+
+I am not using [code annotation](https://quarto.org/docs/authoring/code-annotation.html) because it disables code linking and does not show up correctly in the pop-up window generated with listing cross references. 
 
 ## Annex
 
